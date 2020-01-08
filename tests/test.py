@@ -11,7 +11,7 @@ class TestHandlerCase(unittest.TestCase):
         pass
 
     def test_lambda_handler(self):
-        # d = app.SBI_Scraper('309-0746037', 'MDRHUHVR')
+        # d = app.SBI_Scraper('ID', 'passwordc')
         # json = d.get_fi_param()
         json = app.lambda_handler('a', 'b')
         print(json)
