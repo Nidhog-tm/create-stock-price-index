@@ -1,0 +1,13 @@
+service: create-stock-price-index
+
+provider:
+  name: aws
+  runtime: python3.7
+  region: ap-northeast-1
+
+plugins:
+  - serverless-python-requirements
+
+functions:
+  get-policy-number-list:
+    handler: app.lambda_handler

@@ -1,6 +1,9 @@
 # create_stock_price_index
 株価指標一覧作成
 
+## 実行Path
+`/Users/matsuokatakashi/for_stady/create_stock_price_index`
+
 ## 仮装開発環境作成
 ```
 python3 -m venv .venv_2

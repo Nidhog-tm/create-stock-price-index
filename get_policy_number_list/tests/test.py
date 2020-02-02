@@ -1,5 +1,5 @@
 import unittest
-import get_policy_number_list as app
+import app
 
 
 class TestHandlerCase(unittest.TestCase):
