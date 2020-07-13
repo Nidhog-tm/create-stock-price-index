@@ -11,3 +11,11 @@ plugins:
 functions:
   get-policy-number-list:
     handler: app.lambda_handler
+    events:
+      - http:
+          path: /
+          method: get
+          integration: lambda
+          request:
+            template:
+              application/json: '{ "user_id" : "$input.params("password")" }'
